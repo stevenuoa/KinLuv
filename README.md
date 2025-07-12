@@ -4,7 +4,7 @@
 
 ---
 
-## ⚙️ Features
+## ✨ Key Features
 
 * Supports **2- to 5-state** photophysical models
 * Computes:
@@ -22,7 +22,7 @@
 
 ---
 
-## 📦 Installation
+## 🛠 Installation
 
 Clone the repository and install dependencies:
 
@@ -76,7 +76,7 @@ print("PLQY:", results['QY'])
 
 ---
 
-## 📁 Project Structure
+## 🗂 Project Structure
 
 ```
 kinluv/
@@ -89,20 +89,7 @@ kinluv/
 └── setup.py            # Packaging configuration
 ```
 
----
-
-## 📖 Documentation
-
-See the [Wiki](https://github.com/yourusername/kinluv/wiki) for:
-
-* Photophysical model descriptions
-* Input formats and units
-* Example use cases
-* Troubleshooting and FAQs
-
----
-
-## 📊 Output
+## 📈 Output Summary
 
 Simulation results include:
 
