@@ -65,7 +65,7 @@ pip install .
 
 ## 🚀 Quick Start
 
-Here’s an input example of how to simulate a 3-state photophysical system using KinLuv:
+Here is an example input for using *KinLuv*:
 
 ```python
         _           __
@@ -110,13 +110,14 @@ num_photon=1
 # Define the excitation and decay timescale (s) for plotting and numerical solving (four- and five-state models):
 
 time_excitation=1e-9
-time_decay=5e-7
+time_decay=1e-3
 
 ```
 ```bash
-git clone https://github.com/stevenuoa/KinLuv.git
-cd KinLuv_v1.0.0
-pip install .
+kinluv
+b
+f
+*.inp
 ```
 ---
 
