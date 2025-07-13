@@ -77,7 +77,7 @@ pip install .
 
 # Define the rate constants (units: s⁻¹):
 # e.g.,
-# `k_iscs1t1` denotes the intersystem crossing (ISC) rate constant from the first singlet excited state (S1) to the first triplet state (T1).
+# k_iscs1t1 denotes the intersystem crossing (ISC) rate constant from the first singlet excited state (S1) to the first triplet state (T1).
 
 # by default
 k_abss0s1=1.00E+13,
@@ -115,7 +115,7 @@ time_decay=1e-3
 ```
 2. Enter the following commands and options:
    
-*e.g.*, running the (b). three-state model and input the parameters with a file "*.inp"
+*e.g.*, running the (b). three-state model and input the parameters with a file "inp"
 
 ```bash
 kinluv
