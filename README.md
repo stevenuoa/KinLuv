@@ -65,7 +65,7 @@ pip install .
 
 ## 🚀 Quick Start
 
-Here is an example input for using *KinLuv*:
+1. Prepare an input example as below for using *KinLuv*:
 
 ```python
         _           __
@@ -113,6 +113,9 @@ time_excitation=1e-9
 time_decay=1e-3
 
 ```
+2. Enter the following commands and options:
+*e.g.*, running the (b). three-state model and input the parameters with a file "*.inp"
+
 ```bash
 kinluv
 b
