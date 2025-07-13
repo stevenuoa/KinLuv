@@ -1,5 +1,5 @@
 <h1 align="left">
-  <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="800"></a>
+  <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="600"></a>
 </h1>
 
 <h2 align="justify">A Python toolkit for modeling kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
