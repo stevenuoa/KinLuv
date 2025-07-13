@@ -127,14 +127,13 @@ f
 
 ## 📈 Output Summary
 
-Simulation results include:
-
-* Prompt fluorescence lifetime 
-* Delayed fluorescence lifetime 
-* PLQY 
-* Time-resolved population curves 
-
-More examples please see the documentation.
+*KinLuv* output the following results:
+  * Prompt fluorescence lifetime 
+  * Delayed fluorescence lifetime 
+  * PLQY 
+  * Time-resolved population curves
+    
+Detailed examples please see the document.
 
 ---
 
