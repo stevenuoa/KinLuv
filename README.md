@@ -114,6 +114,7 @@ time_decay=1e-3
 
 ```
 2. Enter the following commands and options:
+   
 *e.g.*, running the (b). three-state model and input the parameters with a file "*.inp"
 
 ```bash
