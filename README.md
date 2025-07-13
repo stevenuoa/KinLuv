@@ -107,12 +107,12 @@ pip install .
 
 Simulation results include:
 
-* Prompt fluorescence lifetime (in seconds)
-* Delayed fluorescence lifetime (in seconds)
-* PLQY (0 to 1)
-* Time-resolved population curves (optional)
+* Prompt fluorescence lifetime 
+* Delayed fluorescence lifetime 
+* PLQY 
+* Time-resolved population curves 
 
-Plots can be generated using built-in plotting tools or external libraries like `matplotlib`.
+More examples please see the documentation.
 
 ---
 
@@ -125,28 +125,17 @@ If you use *KinLuv* in your research, please cite:
   author = {Your Name},
   title = {KinLuv: A Python-Based Tool for Kinetic Modeling of Photophysical Processes},
   year = {2025},
-  url = {https://github.com/yourusername/kinluv}
+  url = {https://github.com/stevenuoa/KinLuv.git}
 }
 ```
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! You can help by:
-
-* Reporting bugs via [Issues](https://github.com/stevenuoa/KinLuv/issues)
-* Submitting pull requests
-* Improving documentation
-* Adding test cases or models
-
----
-
 ## 📬 Contact
 
-For questions, bug reports, or feature requests:
+For more questions or requests:
 
-* Contact the maintainer: **[daniel.escudero@kuleuven.be](mailto:daniel.escudero@kuleuven.be)**
+* Please Contact Prof. Daniel Escudero: **[daniel.escudero@kuleuven.be](mailto:daniel.escudero@kuleuven.be)**
 
 ---
 
