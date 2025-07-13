@@ -20,7 +20,7 @@
 Going beyond conventional approaches, *KinLuv* solves systems of ordinary differential equations (ODEs) to model complex multi-state photophysical processes, including:
 
 - **Fluorescence (FL)**
-- **Phosphorescence (Ph)**
+- **Phosphorescence (PH)**
 - **Internal Conversion (IC)**
 - **Intersystem Crossing (ISC)**
 - **Reverse Intersystem Crossing (rISC)**
