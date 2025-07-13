@@ -27,25 +27,26 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
 
 </div>
 
-
-
 ---
 
 ## ✨ Key Features
 
-* Supports **2- to 5-state** photophysical models
+* Supports:
+  * Multi-state photophysical models **from two states to five states**
+  
 * Computes:
-
   * Prompt fluorescence lifetime
   * Delayed fluorescence lifetime
-  * Photoluminescence quantum yield (PLQY)
-* Handles both:
-
-  * **Analytical solutions** for 2- and 3-state models
-  * **Numerical integration** for 4- and 5-state systems
-* Allows different timescales for excitation and decay (e.g., 1 ns excitation, 1 ms decay)
-* Enables direct comparison with experimental data
-* Clear, modular Python API
+  * Photoluminescence quantum yield (PLQYD)
+    
+* Handles:
+  * **Analytical solutions** for two- and three-state models
+  * **Numerical solutions** for four- and five-state models
+    
+* Allows:
+  * Distinguishable timescales for excitation and decay (*e.g.*, 1 ns excitation, 1 ms decay)
+  * Enables direct comparison with experimental data (*e.g.*, photoluminescence transient decay curve and QYD)
+  * Clear and modular Python API
 
 ---
 
@@ -58,13 +59,6 @@ git clone https://github.com/yourusername/kinluv.git
 cd kinluv
 pip install -r requirements.txt
 ```
-
-Or (if available on PyPI):
-
-```bash
-pip install kinluv
-```
-
 ---
 
 ## 🚀 Quick Start
