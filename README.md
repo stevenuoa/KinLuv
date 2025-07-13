@@ -2,6 +2,8 @@
   <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="800"></a>
 </h1>
 
+<h2 align="justify">A Python toolkit for modeling kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
+
 <div align="center">
  
 [![GitHub](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
@@ -32,7 +34,7 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
 ## ✨ Key Features
 
 * Supports:
-  * Multi-state photophysical models **from two states to five states**
+  * Multi-state photophysical models from two states to five states
   
 * Computes:
   * Prompt fluorescence lifetime
@@ -40,8 +42,8 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
   * Photoluminescence quantum yield (PLQYD)
     
 * Handles:
-  * **Analytical solutions** for two- and three-state models
-  * **Numerical solutions** for four- and five-state models
+  * Analytical solutions for two- and three-state models
+  * Numerical solutions for four- and five-state models
     
 * Allows:
   * Distinguishable timescales for excitation and decay (*e.g.*, 1 ns excitation, 1 ms decay)
@@ -55,9 +57,9 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/kinluv.git
+git clone https://github.com/stevenuoa/KinLuv.git
 cd kinluv
-pip install -r requirements.txt
+pip install .
 ```
 ---
 
