@@ -58,14 +58,14 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/stevenuoa/KinLuv.git
-cd kinluv
+cd KinLuv_v1.0.0
 pip install .
 ```
 ---
 
 ## 🚀 Quick Start
 
-Here’s an example of how to simulate a 3-state photophysical system using KinLuv:
+Here’s an input example of how to simulate a 3-state photophysical system using KinLuv:
 
 ```python
 from kinluv import KinModel
@@ -96,21 +96,12 @@ print("Prompt lifetime:", results['prompt_lifetime'], "s")
 print("Delayed lifetime:", results['delayed_lifetime'], "s")
 print("PLQY:", results['QY'])
 ```
-
+```bash
+git clone https://github.com/stevenuoa/KinLuv.git
+cd KinLuv_v1.0.0
+pip install .
+```
 ---
-
-## 🗂 Project Structure
-
-```
-kinluv/
-├── core/               # Core kinetic simulation modules
-├── examples/           # Usage examples and demo scripts
-├── tests/              # Unit tests
-├── utils/              # Helper functions
-├── README.md           # Project documentation
-├── requirements.txt    # Dependency list
-└── setup.py            # Packaging configuration
-```
 
 ## 📈 Output Summary
 
@@ -127,7 +118,7 @@ Plots can be generated using built-in plotting tools or external libraries like 
 
 ## 📝 Citation
 
-If you use **KinLuv** in your research, please cite:
+If you use *KinLuv* in your research, please cite:
 
 ```
 @software{KinLuv2025,
@@ -144,12 +135,10 @@ If you use **KinLuv** in your research, please cite:
 
 Contributions are welcome! You can help by:
 
-* Reporting bugs via [Issues](https://github.com/yourusername/kinluv/issues)
+* Reporting bugs via [Issues](https://github.com/stevenuoa/KinLuv/issues)
 * Submitting pull requests
 * Improving documentation
 * Adding test cases or models
-
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting changes.
 
 ---
 
@@ -157,12 +146,11 @@ Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting changes.
 
 For questions, bug reports, or feature requests:
 
-* Open an issue: [GitHub Issues](https://github.com/yourusername/kinluv/issues)
-* Contact the maintainer: **[your.email@example.com](mailto:your.email@example.com)**
+* Contact the maintainer: **[daniel.escudero@kuleuven.be](mailto:daniel.escudero@kuleuven.be)**
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/stevenuoa/KinLuv/blob/main/LICENSE) file for details.
 
