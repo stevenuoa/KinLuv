@@ -1,7 +1,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/issues)
 [![github release version](https://img.shields.io/github/v/release/stevenuoa/KinLuv.svg?include_prereleases)](https://github.com/stevenuoa/KinLuv/releases/latest)
-[![license](https://img.shields.io/github/license/stevenioa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/stevenioa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/LICENSE)
 
 # KinLuv
 
