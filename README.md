@@ -1,6 +1,6 @@
 [![GitHub Stars](https://img.shields.io/github/stars/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/issues)
-
+[![github release version](https://img.shields.io/github/v/release/stevenuoa/KinLuv.svg?include_prereleases)](https://github.com/stevenuoa/KinLuv/releases/latest)
 # KinLuv
 
 **KinLuv** is a Python-based kinetic simulation tool designed to predict both prompt and delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-defined rate constants. Unlike conventional methods, KinLuv solves systems of ordinary differential equations (ODEs) to model complex multi-state photophysical processes, including fluorescence (FL), internal conversion (IC), intersystem crossing (ISC), and reverse intersystem crossing (rISC).
