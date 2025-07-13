@@ -1,3 +1,7 @@
+<h1 align="center">
+  <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="800"></a>
+</h1>
+
 <div align="center">
  
 [![GitHub](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
@@ -7,9 +11,23 @@
 
 </div>
 
-# KinLuv
+<div align="justify">
 
-**KinLuv** is a Python-based kinetic simulation tool designed to predict both prompt and delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-defined rate constants. Unlike conventional methods, KinLuv solves systems of ordinary differential equations (ODEs) to model complex multi-state photophysical processes, including fluorescence (FL), internal conversion (IC), intersystem crossing (ISC), and reverse intersystem crossing (rISC).
+*KinLuv* is a Python-based kinetics simulation tool designed to predict both prompt and delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-input rate constants.
+
+Going beyond conventional approaches, *KinLuv* solves systems of ordinary differential equations (ODEs) to model complex multi-state photophysical processes, including:
+
+- **Fluorescence (FL)**
+- **Phosphorescence (Ph)**
+- **Internal Conversion (IC)**
+- **Intersystem Crossing (ISC)**
+- **Reverse Intersystem Crossing (rISC)**
+
+Whether you’re exploring novel TADF materials or discovering new TADF mechanisms, *KinLuv* offers a robust and practical platform for kinetic modeling.
+
+</div>
+
+
 
 ---
 
