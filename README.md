@@ -68,33 +68,50 @@ pip install .
 Here’s an input example of how to simulate a 3-state photophysical system using KinLuv:
 
 ```python
-from kinluv import KinModel
+        _           __
+  /\ /\(_) _ __    / /   _   _ __   __
+ / //_/| || '_ \  / /   | | | |\ \ / /
+/ __ \ | || | | |/ /___ | |_| | \ V /
+\/  \/ |_||_| |_|\____/  \__,_|  \_/
 
-# Define rate constants (in s⁻¹)
-params = {
-    'k_r_S1': 1e8,      # Radiative decay from S1
-    'k_nr_S1': 1e7,     # Non-radiative decay from S1
-    'k_ISC': 1e6,       # Intersystem crossing (S1 → T1)
-    'k_r_T1': 0.0,      # Radiative decay from T1
-    'k_nr_T1': 1e4,     # Non-radiative decay from T1
-    'k_rISC': 1e5       # Reverse intersystem crossing (T1 → S1)
-}
 
-# Initialize a 3-state model
-model = KinModel(states=3, params=params)
+# Define the rate constants (units: s⁻¹):
+# e.g.,
+# `k_iscs1t1` denotes the intersystem crossing (ISC) rate constant from the first singlet excited state (S1) to the first triplet state (T1).
 
-# Run the simulation
-results = model.run_simulation(
-    excitation_pulse_width=10e-15,  # 10 fs
-    absorbed_photons=1,
-    excitation_time=1e-9,           # 1 ns
-    decay_time=1e-3                 # 1 ms
-)
+# by default
+k_abss0s1=1.00E+13,
+k_abss0s2=1.00E+13,
 
-# Output results
-print("Prompt lifetime:", results['prompt_lifetime'], "s")
-print("Delayed lifetime:", results['delayed_lifetime'], "s")
-print("PLQY:", results['QY'])
+# by provided
+k_iscs1t1=1.00E+07,
+k_iscs1t2=1.00E+07,
+k_iscs2t1=1.00E+07,
+k_iscs2t2=1.00E+07,
+k_isct1s0=1.00E+07,
+k_risct1s1=1.00E+05,
+k_risct1s2=1.00E+05,
+k_risct2s1=1.00E+05,
+k_risct2s2=1.00E+05,
+k_fls1s0=1.00E+07,
+k_fls2s0=0.00E+00,
+k_ics1s0=1.00E+07,
+k_ics2s1=1.00E+12,
+k_ics1s2=0.00E+00,
+k_ict2t1=1.00E+12,
+k_ict1t2=0.00E+00,
+k_pht1s0=1.00E+02
+
+# Specify the pulse width (s) of the excitation prior to decay:
+
+time_pulse=1e-11
+num_photon=1
+
+# Define the excitation and decay timescale (s) for plotting and numerical solving (four- and five-state models):
+
+time_excitation=1e-9
+time_decay=5e-7
+
 ```
 ```bash
 git clone https://github.com/stevenuoa/KinLuv.git
