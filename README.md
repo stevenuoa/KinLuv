@@ -1,7 +1,11 @@
+<div align="center">
+ 
 [![GitHub](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
-[![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/issues)
-[![github release version](https://img.shields.io/github/v/release/stevenuoa/KinLuv.svg?include_prereleases)](https://github.com/stevenuoa/KinLuv/releases/latest)
-[![license](https://img.shields.io/github/license/stevenuoa/KinLuv.svg)](https://github.com/stevenuoa/KinLuv/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv?color=4aa8d8&style=flat-square)](https://github.com/stevenuoa/KinLuv/issues)
+[![Latest Release](https://img.shields.io/github/v/release/stevenuoa/KinLuv?include_prereleases&color=6a5acd&style=flat-square)](https://github.com/stevenuoa/KinLuv/releases/latest)
+[![License](https://img.shields.io/github/license/stevenuoa/KinLuv?color=2db27d&style=flat-square)](https://github.com/stevenuoa/KinLuv/blob/main/LICENSE)
+
+</div>
 
 # KinLuv
 
