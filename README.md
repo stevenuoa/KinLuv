@@ -1,10 +1,10 @@
-<h1 align="center">
+<h1 align="left">
   <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="800"></a>
 </h1>
 
 <h2 align="justify">A Python toolkit for modeling kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
 
-<div align="center">
+<div align="left">
  
 [![GitHub](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
 [![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv?color=4aa8d8&style=flat-square)](https://github.com/stevenuoa/KinLuv/issues)
