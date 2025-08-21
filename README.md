@@ -2,7 +2,7 @@
   <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="600"></a>
 </h1>
 
-<h2 align="justify">A Python toolkit for modeling multistate kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
+<h2 align="justify">A Python Toolkit for Modeling Multistate Kinetics in Thermally Activated Delayed Fluorescence (TADF) Systems.</h2>
 
 <div align="left">
  
@@ -15,17 +15,18 @@
 
 <div align="justify">
 
-**KinLuv** is a Python-based simulation tool designed to model multistate kinetics, and thus predict prompt/delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-input rate constants.
+**KinLuv** is a Python-based simulation toolkit for multistate kinetic modeling. It can predict prompt and delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY) directly from user-defined rate constants.
 
-Going beyond conventional approaches, **KinLuv** solves systems of ordinary differential equations (ODEs) to model complex multistate photophysical processes, including:
+Going beyond conventional approaches, **KinLuv** solves systems of ordinary differential equations (ODEs) to capture the complex photophysical processes, including:
 
-- **Fluorescence (FL)**
+- **Fluorescence (FL)** (Kasha and anti-Kasha)
 - **Phosphorescence (PH)**
 - **Internal Conversion (IC)**
+- **Reverse Internal Conversion (rIC)**
 - **Intersystem Crossing (ISC)**
 - **Reverse Intersystem Crossing (rISC)**
 
-Whether you’re exploring novel TADF materials or discovering new TADF mechanisms, **KinLuv** offers a robust and practical platform for universal multistate kinetic modeling.
+Whether you’re exploring novel TADF materials or discovering new TADF mechanisms, **KinLuv** offers a versatile and practical platform for universal multistate kinetic simulations.
 
 </div>
 
@@ -34,20 +35,20 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
 ## ✨ Key Features
 
 * Supports:
-  * Multistate photophysical models from two states to five states
+  * Multistate photophysical models from two states (S<sub>0</sub>, S<sub>1</sub>) to five states (S<sub>0</sub>, S<sub>1</sub>, S<sub>2</sub>, T<sub>1</sub>, T<sub>2</sub>)
   
 * Computes:
   * Prompt fluorescence lifetime
   * Delayed fluorescence lifetime
-  * Photoluminescence quantum yield (PLQYD)
+  * PLQY
     
 * Handles:
   * Analytical solutions for two- and three-state models
-  * Numerical solutions for four- and five-state models
+  * Numerical solutions for four- and five-state models to minimize computational cost
     
 * Allows:
-  * Distinguishable timescales for excitation and decay (*e.g.*, 1 ns excitation, 1 ms decay)
-  * Enables direct comparison with experimental data (*e.g.*, photoluminescence transient decay curve and QYD)
+  * Distinguishable timescales are observed for the excitation period corresponding to the pulse duration, and the subsequent decay stage
+  * Enables direct comparison with experimental data (e.g., photoluminescence transient decay curve and PLQY)
   * Clear and modular Python API
 
 ---
@@ -65,7 +66,7 @@ pip install .
 
 ## 🚀 Quick Start
 
-1. Prepare an input example as below for using *KinLuv*:
+1. Prepare an input example as below for using **KinLuv**:
 
 ```python
         _           __
@@ -115,7 +116,7 @@ time_decay=1e-3
 ```
 2. Enter the following commands and options:
    
-*e.g.*, running the (b). three-state model and input the parameters with a file "inp"
+e.g., running the (b). three-state model and input the parameters with a file "inp"
 
 ```bash
 kinluv
@@ -127,7 +128,7 @@ f
 
 ## 📈 Output Summary
 
-*KinLuv* output the following results:
+**KinLuv** output the following results:
   * Prompt fluorescence lifetime 
   * Delayed fluorescence lifetime 
   * PLQY 
@@ -139,12 +140,12 @@ Detailed examples please see the document.
 
 ## 📝 Citation
 
-If you use *KinLuv* in your research, please cite:
+If you use **KinLuv** in your research, please cite:
 
 ```
 @software{KinLuv2025,
-  author = {Your Name},
-  title = {KinLuv: A Python-Based Tool for Kinetic Modeling of Photophysical Processes},
+  author = {Yue He, Daniel Escudero},
+  title = {KinLuv: A Python Toolkit for Modeling Multistate Kinetics in Thermally Activated Delayed Fluorescence (TADF) Systems},
   year = {2025},
   url = {https://github.com/stevenuoa/KinLuv.git}
 }
