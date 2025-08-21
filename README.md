@@ -2,7 +2,7 @@
   <a href="https://github.com/stevenuoa/KinLuv.git"><img src="https://github.com/stevenuoa/KinLuv/blob/main/logo_transparent.png" alt="Markdownify" width="600"></a>
 </h1>
 
-<h2 align="justify">A Python toolkit for modeling kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
+<h2 align="justify">A Python toolkit for modeling multistate kinetics in thermally activated delayed fluorescence (TADF) systems.</h2>
 
 <div align="left">
  
@@ -15,9 +15,9 @@
 
 <div align="justify">
 
-*KinLuv* is a Python-based kinetics simulation tool designed to predict both prompt and delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-input rate constants.
+**KinLuv** is a Python-based simulation tool designed to model multistate kinetics, and thus predict prompt/delayed fluorescence lifetimes, as well as photoluminescence quantum yield (PLQY), from user-input rate constants.
 
-Going beyond conventional approaches, *KinLuv* solves systems of ordinary differential equations (ODEs) to model complex multi-state photophysical processes, including:
+Going beyond conventional approaches, **KinLuv** solves systems of ordinary differential equations (ODEs) to model complex multistate photophysical processes, including:
 
 - **Fluorescence (FL)**
 - **Phosphorescence (PH)**
@@ -25,7 +25,7 @@ Going beyond conventional approaches, *KinLuv* solves systems of ordinary differ
 - **Intersystem Crossing (ISC)**
 - **Reverse Intersystem Crossing (rISC)**
 
-Whether you’re exploring novel TADF materials or discovering new TADF mechanisms, *KinLuv* offers a robust and practical platform for kinetic modeling.
+Whether you’re exploring novel TADF materials or discovering new TADF mechanisms, **KinLuv** offers a robust and practical platform for universal multistate kinetic modeling.
 
 </div>
 
@@ -34,7 +34,7 @@ Whether you’re exploring novel TADF materials or discovering new TADF mechanis
 ## ✨ Key Features
 
 * Supports:
-  * Multi-state photophysical models from two states to five states
+  * Multistate photophysical models from two states to five states
   
 * Computes:
   * Prompt fluorescence lifetime
