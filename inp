@@ -1,0 +1,43 @@
+        _           __
+  /\ /\(_) _ __    / /   _   _ __   __
+ / //_/| || '_ \  / /   | | | |\ \ / /
+/ __ \ | || | | |/ /___ | |_| | \ V /
+\/  \/ |_||_| |_|\____/  \__,_|  \_/
+
+
+# Define the rate constants (units: s⁻¹):
+# e.g.,
+# `k_iscs1t1` denotes the intersystem crossing (ISC) rate constant from the first singlet excited state (S1) to the first triplet state (T1).
+
+# by default
+k_abss0s1=1.00E+13,
+k_abss0s2=1.00E+13,
+
+# by provided
+k_iscs1t1=1.00E+07,
+k_iscs1t2=1.00E+07,
+k_iscs2t1=1.00E+07,
+k_iscs2t2=1.00E+07,
+k_isct1s0=1.00E+04,
+k_risct1s1=1.00E+05,
+k_risct1s2=1.00E+05,
+k_risct2s1=1.00E+05,
+k_risct2s2=1.00E+05,
+k_fls1s0=1.00E+07,
+k_fls2s0=0.00E+00,
+k_ics1s0=1.00E+07,
+k_ics2s1=1.00E+12,
+k_ics1s2=0.00E+00,
+k_ict2t1=1.00E+12,
+k_ict1t2=0.00E+00,
+k_pht1s0=1.00E+02
+
+# Specify the pulse width (s) of the excitation prior to decay:
+
+time_pulse=1e-11
+num_photon=1
+
+# Define the excitation and decay timescale (s) for plotting and numerical solving (four- and five-state models):
+
+time_excitation=1e-9
+time_decay=1e-3
