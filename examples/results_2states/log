@@ -1,0 +1,120 @@
+Module states2 imported successfully
+Found main function in states2
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                                                                              │
+│                o WELCOME TO TWO STATES KINETICS CALCULATIONS o                 │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+ >>> Running 2-states module with parameters:
+
+k_abss0s1: 1.00e+13
+k_fls1s0: 1.00e+07
+k_ics1s0: 1.00e+07
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                    → Step 1: Running the excitation solver                     
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Solving the excitation kinetcis...
+
+
+ >>>  Analytic expression of population evolution: 
+
+ S0(t):
+ 1.999996000008e-6 + 0.99999800000399997*exp(-10000020000000.0*t) 
+
+ S1(t):
+ 0.99999800000399997 - 0.99999800000399997*exp(-10000020000000.0*t) 
+
+
+ >>> Analytic expression of population at infinity: 
+
+ S0(infinity):
+ 1.999996000008e-6 
+
+ S1(infinity):
+ 0.99999800000399997 
+
+
+ Population after pulse duration 1.00e-11 s:
+  S0 = 2.000e-6
+  S1 = 1.000e+0
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                       → Step 2: Running the decay solver                       
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Solving the decay kinetics...
+
+
+Initial Population for decay:
+ S0_initial:   2.000e-6
+ S1_initial:   1.000e+0
+
+ >>>  Analytic expression of population evolution: 
+
+ S0(t):
+ 1.0 - 0.99999800000399997*exp(-20000000.0*t) 
+
+ S1(t):
+ 0.99999800000399997*exp(-20000000.0*t) 
+
+
+ >>> Analytic expression of population at infinity: 
+
+ S0(infinity):
+ 1.0 
+
+ S1(infinity):
+ 0 
+
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                → Step 3: Running the quantum yield calculation                 
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Calculating the quantum yield...
+
+
+ Quantum Yield of Fluorescence (%): 
+ 50.00% 
+
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                          → Step 4: Plotting kinetics                           
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Generating plots for excitation and decay kinetics...
+
+Kinetics data successfully saved to results_2states/kinetics_data.out
+
+Figure successfully saved to results_2states/kinetics_plot.pdf
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                                                                              │
+│                           o CALCULATIONS COMPLETE o                            │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+──────────┘
+

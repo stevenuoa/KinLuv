@@ -1,0 +1,139 @@
+Module states3 imported successfully
+Found main function in states3
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                                                                              │
+│               o WELCOME TO THREE STATES KINETICS CALCULATIONS o                │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+
+ >>> Running 3-states module with parameters:
+
+k_abss0s1: 1.00e+13
+k_fls1s0: 1.00e+07
+k_ics1s0: 1.00e+07
+k_iscs1t1: 1.00e+07
+k_risct1s1: 1.00e+05
+k_isct1s0: 1.00e+04
+k_pht1s0: 1.00e+02
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                    → Step 1: Running the excitation solver                     
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Solving the excitation kinetics...
+
+
+ >>>  Analytic expression of population evolution: 
+
+ S0(t):
+ 2.2779200478130792e-8 + 0.99999800000000094*exp(-10000020000019.99*t) + 1.9772207974919443e-6*exp(-10110080.009765625*t) 
+
+ S1(t):
+ 0.010890099750943119 - 0.99999899999701192*exp(-10000020000019.99*t) + 0.98910890024607001*exp(-10110080.009765625*t) 
+
+ T1(t):
+ 0.98910987746985635 + 9.9999701101095808e-7*exp(-10000020000019.99*t) - 0.98911087746686743*exp(-10110080.009765625*t) 
+
+
+ >>> Analytic expression of population at infinity: 
+
+ S0(infinity):
+ 2.2779200478130792e-8 
+
+ S1(infinity):
+ 0.010890099750943119 
+
+ T1(infinity):
+ 0.98910987746985635 
+
+
+ Population after pulse duration 1.00e-11 s:
+  S0 = 2.000e-6
+  S1 = 9.999e-1
+  T1 = 9.899e-5
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                       → Step 2: Runing the decay solver                        
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Solving the decay kinetics...
+
+
+Initial Population for decay:
+ S0_initial:   2.000e-6
+ S1_initial:   9.999e-1
+ T1_initial:   9.899e-5
+
+
+ >>>  Analytic expression of population evolution: 
+
+ S0(t):
+ 1.0000000000000002 - 0.66500232240577895*exp(-30033418.753055189*t) - 0.33499567779411099*exp(-76681.246944811195*t) 
+
+ S1(t):
+ 0.99878322038182654*exp(-30033418.753055189*t) + 0.0011157849688419993*exp(-76681.246944811195*t) 
+
+ T1(t):
+ -0.3337808979760476*exp(-30033418.753055189*t) + 0.33387989282526898*exp(-76681.246944811195*t) 
+
+
+ >>> Analytic expression of population at infinity: 
+
+ S0(infinity):
+ 1.0 
+
+ S1(infinity):
+ 0 
+
+ T1(infinity):
+ 0 
+
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                → Step 3: Running the quantum yield calculation                 
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Calculating the quantum yield...
+
+
+ Quantum Yield of Fluorescence (%): 
+ 47.81% 
+
+
+────────────────────────────────────────────────────────────────────────────────
+│                                                                              │
+                          → Step 4: Plotting kinetics                           
+│                                                                              │
+────────────────────────────────────────────────────────────────────────────────
+
+
+ >>> Generating plots for excitation and decay kinetics...
+
+Kinetics data successfully saved to results_3states/kinetics_data.out
+
+Figure successfully saved to results_3states/kinetics_plot.pdf
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                                                              │
+│                                                                              │
+│                           o CALCULATIONS COMPLETE o                            │
+│                                                                              │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+──────────┘
+
