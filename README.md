@@ -143,12 +143,20 @@ Detailed examples please see the document.
 If you use **KinLuv** in your research, please cite:
 
 ```
+@article{he2025universal,
+  title={Universal Multistate Kinetic Models for the In-Silico Discovery of Thermally Activated Delayed Fluorescence Emitters},
+  author={He, Yue and Escudero, Daniel},
+  journal={arXiv preprint arXiv:2508.16436},
+  year={2025}
+}
+
 @software{KinLuv2025,
   author = {Yue He, Daniel Escudero},
   title = {KinLuv: A Python Toolkit for Modeling Multistate Kinetics in Thermally Activated Delayed Fluorescence (TADF) Systems},
   year = {2025},
   url = {https://github.com/stevenuoa/KinLuv.git}
 }
+
 ```
 
 ---
