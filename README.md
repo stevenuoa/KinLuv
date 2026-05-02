@@ -60,6 +60,7 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/stevenuoa/KinLuv.git
 cd KinLuv
+cd kinluv
 pip install .
 ```
 ---
