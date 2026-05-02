@@ -6,9 +6,11 @@
 
 <div align="left">
  
-[![GitHub](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
+[![GitHub Stars](https://img.shields.io/github/stars/stevenuoa/KinLuv?style=social)](https://github.com/stevenuoa/KinLuv)
 [![GitHub Issues](https://img.shields.io/github/issues/stevenuoa/KinLuv?color=4aa8d8&style=flat-square)](https://github.com/stevenuoa/KinLuv/issues)
 [![Latest Release](https://img.shields.io/github/v/release/stevenuoa/KinLuv?include_prereleases&color=6a5acd&style=flat-square)](https://github.com/stevenuoa/KinLuv/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/stevenuoa/KinLuv/total?color=orange&style=flat-square)](https://github.com/stevenuoa/KinLuv/releases)
+![Views](https://komarev.com/ghpvc/?username=stevenuoa-KinLuv&label=Views&color=blueviolet&style=flat-square)
 [![License](https://img.shields.io/github/license/stevenuoa/KinLuv?color=2db27d&style=flat-square)](https://github.com/stevenuoa/KinLuv/blob/main/LICENSE)
 
 </div>
