@@ -85,23 +85,26 @@ k_abss0s1=1.00E+13,
 k_abss0s2=1.00E+13,
 
 # by provided
-k_iscs1t1=1.00E+07,
-k_iscs1t2=1.00E+07,
+k_iscs1t1=1.00E+06,
+k_iscs1t2=1.00E+05,
 k_iscs2t1=1.00E+07,
 k_iscs2t2=1.00E+07,
-k_isct1s0=1.00E+04,
-k_risct1s1=1.00E+05,
-k_risct1s2=1.00E+05,
-k_risct2s1=1.00E+05,
-k_risct2s2=1.00E+05,
+k_isct1s0=1.00E+05,
+k_isct2s0=0.00E+00,
+k_risct1s1=1.00E+03,
+k_risct1s2=1.00E+03,
+k_risct2s1=1.00E+06,
+k_risct2s2=1.00E+04,
 k_fls1s0=1.00E+07,
 k_fls2s0=0.00E+00,
 k_ics1s0=1.00E+07,
-k_ics2s1=1.00E+12,
-k_ics1s2=0.00E+00,
-k_ict2t1=1.00E+12,
-k_ict1t2=0.00E+00,
-k_pht1s0=1.00E+02
+k_ics2s0=1.00E+06,
+k_ics2s1=1.00E+10,
+k_ict2t1=1.00E+10,
+k_rics1s2=1.00E+08,
+k_rict1t2=1.00E+10,
+k_pht1s0=1.00E-02,
+k_pht2s0=0.00E+00,
 
 # Specify the pulse width (s) of the excitation prior to decay:
 
@@ -143,12 +146,13 @@ Detailed examples please see the document.
 If you use **KinLuv** in your research, please cite:
 
 ```
-@article{he2025universal,
-  title={Universal Multistate Kinetic Models for the In-Silico Discovery of Thermally Activated Delayed Fluorescence Emitters},
+@article{he2026beyond,
+  title={Beyond the Three-State Picture: When Higher-Lying Excited States Become Quantitatively Indispensable},
   author={He, Yue and Escudero, Daniel},
-  journal={arXiv preprint arXiv:2508.16436},
-  year={2025}
-}
+  journal={Chemical Science},
+  year={2026},
+  publisher={Royal Society of Chemistry}
+
 
 @software{KinLuv2025,
   author = {Yue He, Daniel Escudero},
